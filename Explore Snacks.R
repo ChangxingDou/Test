@@ -7,4 +7,3 @@ lm_test = lm(snacks_data$Person.Channel.Reach..~
                as.factor(snacks_data$Kids)+as.factor(snacks_data$Social.Class))
 attach(snacks_data)
 detach(snacks_data)
-summary(lm_test)
